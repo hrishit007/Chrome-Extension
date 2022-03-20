@@ -1,0 +1,11 @@
+{
+    "name" : "Change color of repo",
+    "version" : "1.0",
+    "manifest_version" : 2,
+    "content_scripts" : [
+        {
+            "matches" : ["https://github.com/orgs/mdgspace/repositories","https://github.com/orgs/mdgspace/repositories?page=1","https://github.com/orgs/mdgspace/repositories?page=2","https://github.com/orgs/mdgspace/repositories?page=3"],
+            "js" : ["change_color.js"]
+        }
+    ]
+}
